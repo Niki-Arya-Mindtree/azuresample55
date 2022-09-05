@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  appse:
+    build: .
+    ports:
+      - 8032:8026
